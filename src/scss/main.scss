@@ -2,61 +2,61 @@
 @import "_variables";
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  color: $text;
-  background: $blue;
-  font-family: Roboto;
+    color: $text;
+    background: $blue;
+    font-family: Roboto;
 }
 .content_group {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
-  margin-top: 50px;
-  margin-bottom: 0px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
-  text-align: center;
-  /* shadow */
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    /* shadow */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
-  margin-top: 88px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
+    margin-top: 88px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .water_glass_svg {
-  margin-top: 106px;
-  text-align: center;
+    margin-top: 106px;
+    text-align: center;
 }
 .button_group {
-  text-align: center;
+    text-align: center;
 }
 .button_plus {
-  margin: 20px;
-  width: 84px;
-  height: 46px;
+    margin: 20px;
+    width: 84px;
+    height: 50px;
 }
 .button_minus {
-  margin: 20px;
-  width: 84px;
-  height: 46px;
+    margin: 20px;
+    width: 84px;
+    height: 50px;
 }
 .fas {
-  size: 100px;
+    font-size: 30px;
 }
