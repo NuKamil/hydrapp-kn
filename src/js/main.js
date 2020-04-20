@@ -28,7 +28,7 @@ const buttonPlus = document.querySelector(".button_plus-js");
 const buttonMinus = document.querySelector(".button_minus-js");
 const counter = document.querySelector(".licznik-js");
 
-if (localStorage.getItem(key)) {
+if (!localStorage.getItem(key)) {
     localStorage.setItem(key, 0);
     counter.innerHTML = "0";
 } else {
