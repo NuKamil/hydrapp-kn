@@ -3,6 +3,8 @@
 
 html {
     box-sizing: border-box;
+    background: $blue;
+
 }
 
 *,
@@ -15,8 +17,12 @@ body {
     color: $text;
     background: $blue;
     font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
 }
-.content_group {
+main {
     display: flex;
     flex-direction: column;
 }
@@ -51,16 +57,18 @@ h2 {
     margin: 20px;
     width: 84px;
     height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 .button_minus {
     margin: 20px;
     width: 84px;
     height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 .fas {
     font-size: 30px;
 }
 .tekst_informacja{
     text-align: center;
-
+    justify-content: center;
 }
